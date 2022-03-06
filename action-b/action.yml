@@ -1,0 +1,13 @@
+name: "Rust test"
+description: "Run the example rust tests upon commit7push"
+author: "giithub@nasenfuchs.de"
+
+inputs:
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
