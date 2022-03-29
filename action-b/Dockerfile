@@ -1,5 +1,5 @@
 
-FROM rust:1.40
+FROM rust:latest
 
 ADD runtests.sh /runtests.sh
 RUN chmod +x /runtests.sh
